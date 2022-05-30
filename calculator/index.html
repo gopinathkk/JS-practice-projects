@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    
+    <section>
+        <header class="header1">
+            <h1>Calculator</h1>
+        </header>
+        <div class="calcBody">
+            <div class= "calc-screen"> 
+            <input placeholder="" type="text" id="screenText">
+             <input placeholder="" type="text" id="sideText">
+        </div>
+            <div class="calcRaws">
+                <button onclick="clearScreen()" class="btnStyle">C</button>
+                <button onclick="mReset('MR')" class="btnStyle">MR</button>
+                <button onclick="mAddition('M+')" class="btnStyle">M+</button>
+                <button onclick="mSubstract('M-')" class="btnStyle" id="sumbtn">M-</button>
+            </div>
+            <div class="calcRaws">
+                <button onclick="writeBtnValue(7)" class="btnStyle">7</button>
+                <button onclick="writeBtnValue(8)" class="btnStyle">8</button>
+                <button onclick="writeBtnValue(9)" class="btnStyle">9</button>
+                <button onclick="divideBtn('/')" class="btnStyle" id="devidebtn">÷</button>
+            </div>
+            <div class="calcRaws">
+                <button onclick="writeBtnValue(4)" class="btnStyle">4</button>
+                <button onclick="writeBtnValue(5)" class="btnStyle">5</button>
+                <button onclick="writeBtnValue(6)" class="btnStyle">6</button>
+                <button onclick="productBtn('*')" class="btnStyle" id="intobtn">x</button>
+            </div>
+            <div class="calcRaws">
+                <button onclick="writeBtnValue(1)" class="btnStyle">1</button>
+                <button onclick="writeBtnValue(2)" class="btnStyle">2</button>
+                <button onclick="writeBtnValue(3)" class="btnStyle">3</button>
+                <button onclick="diffBtn('-')" class="btnStyle" id="minusbtn">-</button>
+            </div>
+            <div class="calcRaws">
+                <button onclick="writeBtnValue(0)" class="btnStyle">0</button>
+                <button onclick="writeBtnValue('.')('.')" class="btnStyle">.</button>
+                <button onclick="resultValue('=')" class="btnStyle">=</button>
+                <button onclick="sumBtn('+')" class="btnStyle">+</button>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+</body>
+
+</html>
