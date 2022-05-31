@@ -1,0 +1,17 @@
+
+body{background-color: black;}
+.clock{
+    
+    
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: orbitron;
+    letter-spacing: 27px;
+    margin-top: 5%;
+    margin-left: 10%;
+    outline: solid 3px blue;
+    width: 60%;
+    
+    /* transform: translatex(-50%) transalteY(-50%); */
+
+}
