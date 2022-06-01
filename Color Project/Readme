@@ -1,0 +1,7 @@
+Welcome to color change app
+
+Background color of tye screen can be changed by pressing the buttons.
+Three options are provided:
+- select a color by pressing the button from a fixed set of colors 
+- select randon set of colors by pressing the button, each time pressing the button will chnage the color randomly.
+- auto color change: press the button and the color will chnage automatic reandom colors every second. Press the same button again to stop the color switching.
