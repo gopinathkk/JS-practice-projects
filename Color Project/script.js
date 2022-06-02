@@ -14,6 +14,7 @@ function changeColors() {
   //change to fixed set of color as given in the array.
   var color = ["red", "blue", "magenta", "purple", "cyan", "gold", "teal"];
   document.getElementsByTagName("body")[0].style.background = color[index++];
+  document.getElementById("colorname").innerHTML=  color;
   if (index > color.length - 1) {
     index = 0;
   }
@@ -39,9 +40,7 @@ function randomcolor() {
   }
 //when the switch is on , call the change color function at 1 sec intervals until stop.
   if (swicth == true) {
-    myTime = setInterval(function () {
-      colorchange();
-    }, 1000);
+    myTime = setInterval(function () {colorchange();}, 1000);
   } else {
     clearInterval(myTime);
   }
@@ -58,7 +57,7 @@ function colorchange() {
   b = b + 63;
   var color = "rgb(" + r + "," + g + "," + b + ")";
   document.getElementsByTagName("body")[0].style.background = color;
-  
+  document.getElementById("colorname").innerHTML=  color;
   if (r > 255) {
     r = 0;
   }

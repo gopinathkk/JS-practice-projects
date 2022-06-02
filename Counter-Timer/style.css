@@ -1,0 +1,51 @@
+
+h2{
+    color: rgb(194, 194, 68);
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.counter{
+    background-color: cornflowerblue;
+    height: 200px;
+    width: 300px;
+       
+}
+.label{
+    background-color: cornflowerblue;
+    color: darkturquoise;
+    font-size: 70px;
+}
+.controls{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.timedisplay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.timer{
+    background-color: cornflowerblue;
+    height: 200px;
+    width: 300px;
+       
+}
+.timecontrols{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

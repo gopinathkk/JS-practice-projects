@@ -1,5 +1,5 @@
 .container{
-    border: 1px solid black;
+    
     display:flex;
     justify-content:space-evenly;
     align-items: center;
@@ -10,3 +10,11 @@ button{
     padding: 20px;
 }
 
+#colorname{
+    font-size: 25px;
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    color: aliceblue;
+    
+}

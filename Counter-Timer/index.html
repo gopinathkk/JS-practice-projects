@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    
+</head>
+
+<body>
+    <div class="main">
+        <div class="counter">
+            <h2>COUNTER</h2>
+            <div class="display">
+                <label id="counter" class="label" for="display">0</label>
+            </div>
+            <div class="controls">
+                <button onclick= increase() id="increase" type="button" class="btn btn-primary btn-sm">Increase</button>
+                <button onclick= reset() id="reset" type="button" class="btn btn-secondary btn-sm">Reset</button>
+                <button onclick= decrese() id="decrease" type="button" class="btn btn-primary btn-sm">Decrease</button>
+            </div>
+        </div>
+        <div class="timer">
+            <h2>TIMER</h2>
+            <div class="timedisplay">
+                <label id="timecounter" class="label" for="display">0</label>
+            </div>
+            <div class="timecontrols">
+                <button onclick= timeStart() id="timeStart" type="button" class="btn btn-primary btn-sm">Start</button>
+                <button onclick= timeReset() id="timeReset" type="button" class="btn btn-secondary btn-sm">Reset</button>
+                <button onclick= timeStop() id="timeStop" type="button" class="btn btn-primary btn-sm">Stop</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
